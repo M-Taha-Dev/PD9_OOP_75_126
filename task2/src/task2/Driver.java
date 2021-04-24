@@ -25,7 +25,7 @@ public class Driver {
         String input = obj.nextLine();
         
         System.out.println("Your sentence printed vertically is: ");
-        System.out.println(displayVertical(input));
+        System.out.print(displayVertical(input));
     }
     
     /**
