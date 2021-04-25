@@ -68,6 +68,7 @@ public class driver {
     }
 
     public static void main(String[] args) {
+        System.out.println("Program is starting.");
         String input = "0";
         String t3Input = "0", t4Input = "0";
         MyString myStr;
