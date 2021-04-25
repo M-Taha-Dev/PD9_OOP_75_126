@@ -12,7 +12,10 @@ import javax.swing.JOptionPane;
  * @author DELL
  */
 public class driver {
-
+/**
+ * prints Main Menu
+ * @return void
+ */
     public static String menu() {
         String var = JOptionPane.showInputDialog("Choose from the following options: \n"
                 + " 1. Task 1 \n"
@@ -26,6 +29,10 @@ public class driver {
         return var;
     }
     
+    /**
+     * prints menu for task 3
+     * @return 
+     */
     
     public static String t3Menu(){
         String var = JOptionPane.showInputDialog("Choose from the following options: \n"

@@ -14,6 +14,11 @@ import javax.swing.JOptionPane;
 
 public class Task1 {
 
+    /**
+     * This function count the words in a String
+     *
+     * @return int (no. of words)
+     */
     public static int wordCounter(String s) {
         int count = 1;
         char[] arr = s.toCharArray();
@@ -25,6 +30,11 @@ public class Task1 {
         return count;
     }
 
+    /**
+     * This function count the vowels in a String
+     *
+     * @return int (no. of vowels)
+     */
     public static int vowelcounter(String s) {
         int count = 0;
         char arr[] = s.toCharArray();
@@ -37,6 +47,11 @@ public class Task1 {
         return count;
     }
 
+    /**
+     * This function count the punctuations in a String
+     *
+     * @return int (no. of punctuations)
+     */
     public static int puncCount(String s) {
         int count = 0;
         char arr[] = s.toCharArray();
@@ -51,6 +66,10 @@ public class Task1 {
         return count;
     }
 
+    /**
+     * This function checks if a sub string is a part of string or not
+     * @return Boolean (true when match is found, else false)
+     */
     public static boolean findSubString(String s, String sub) {
         boolean check = false;
         char[] stringArray = s.toCharArray();
