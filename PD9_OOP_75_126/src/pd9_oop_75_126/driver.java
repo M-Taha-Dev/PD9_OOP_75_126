@@ -68,9 +68,8 @@ public class driver {
     }
 
     public static void main(String[] args) {
-        System.out.println("Program is starting.");
+        System.out.println("Program is starting, with errors");
         System.out.println("Hello UET");
-       System.out.println("I live in lahore");
        System.out.println("This program is about the programming day of week9");
         String input = "0";
         String t3Input = "0", t4Input = "0";
