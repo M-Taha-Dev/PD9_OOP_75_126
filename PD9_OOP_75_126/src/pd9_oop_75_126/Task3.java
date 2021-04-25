@@ -13,7 +13,11 @@ import java.util.*;
 
 import javax.swing.JOptionPane;
 public class Task3 {
-	
+	/**
+         * This function removes integers from a string
+         * @param s
+         * @return String(without integers)
+         */
 	public static String removeInteger(String s) {
 		char arr[] = s.toCharArray();
 		String temp = "";
@@ -25,7 +29,11 @@ public class Task3 {
 		}
 		return temp;
 	}
-	
+	/**
+         * This function remove extra spcaes from a string
+         * @param s
+         * @return String (with extra spaces removed)
+         */
 	public static String ridMultipleBlank(String s) {
 		char arr[] = s.toCharArray();
 		String temp = "";
@@ -44,7 +52,11 @@ public class Task3 {
 		}
 		return temp;
 	}
-	
+	/**
+         * This function encrypt a given String
+         * @param s (unencrypted String)
+         * @return (encrypted String)
+         */
 	public static String stringEncryption(String s) {
 		String encryptedString = "";
 		char arr[] = s.toCharArray();
