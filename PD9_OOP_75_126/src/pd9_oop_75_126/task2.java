@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package task2;
+package pd9_oop_75_126;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author M_Khuzaima
  */
-public class Driver {
+public class task2 {
 
     /**
      * @param args the command line arguments
