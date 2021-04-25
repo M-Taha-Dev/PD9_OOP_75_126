@@ -88,9 +88,9 @@ public class driver {
                     int vowelCount = Task1.vowelcounter(inputString);
                     int pCount = Task1.puncCount(inputString);
                     if (flag) {
-                        System.out.println("No. of words: " + wordCount + "\n" + "No. of vowels: " + vowelCount + "\n" + "No. of punctuations: " + pCount + "\n" + '\"' + sub + '\"' + " is a part of String");
+                        JOptionPane.showMessageDialog(null,"No. of words: " + wordCount + "\n" + "No. of vowels: " + vowelCount + "\n" + "No. of punctuations: " + pCount + "\n" + '\"' + sub + '\"' + " is a part of String");
                     } else {
-                        System.out.println("No. of words: " + wordCount + "\n" + "No. of vowels: " + vowelCount + "\n" + "No. of punctuations: " + pCount + "\n" + '\"' + sub + '\"' + " is not a part of String");
+                        JOptionPane.showMessageDialog(null,"No. of words: " + wordCount + "\n" + "No. of vowels: " + vowelCount + "\n" + "No. of punctuations: " + pCount + "\n" + '\"' + sub + '\"' + " is not a part of String");
                     }
                     break;
                     
@@ -112,7 +112,7 @@ public class driver {
                             case "1":
                                 inputString = JOptionPane.showInputDialog("Enter a String: ");
                                 outString = Task3.ridMultipleBlank(inputString);
-                                System.err.println("Output: " + outString);
+                              JOptionPane.showMessageDialog(null,"Output: " + outString);
                                        
                                 
                                 break;
@@ -120,7 +120,7 @@ public class driver {
                             case "2":
                                 inputString = JOptionPane.showInputDialog("Enter a String: ");
                                 outString = Task3.removeInteger(inputString);
-                                System.err.println("Output: " + outString);
+                                JOptionPane.showMessageDialog(null,"Output: " + outString);
                                 
                                 
                                 
@@ -130,7 +130,7 @@ public class driver {
                                 
                                 inputString = JOptionPane.showInputDialog("Enter a String: ");
                                 outString = Task3.stringEncryption(inputString);
-                                System.err.println("Output: " + outString);
+                                JOptionPane.showMessageDialog(null,"Output: " + outString);
                                 break;
                                 
                             case "0":
@@ -193,14 +193,14 @@ public class driver {
                             case "7":
                                 t4Input = JOptionPane.showInputDialog("Please enter a String: ");
                                 myStr = new MyString(t4Input);
-                                JOptionPane.showMessageDialog(null, "After converting to camel case" + myStr.toCamelCase());
+                                JOptionPane.showMessageDialog(null, "After converting to camel case: " + myStr.toCamelCase());
                                 break;
                                 
                             //Convert to Title Case
                             case "8":
                                 t4Input = JOptionPane.showInputDialog("Please enter a String: ");
                                 myStr = new MyString(t4Input);
-                                JOptionPane.showMessageDialog(null, "After converting to Title case" + myStr.toTitleCase());
+                                JOptionPane.showMessageDialog(null, "After converting to Title case: " + myStr.toTitleCase());
                                 break;
                                 
                             //back
