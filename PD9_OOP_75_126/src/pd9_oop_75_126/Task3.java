@@ -7,7 +7,7 @@ package pd9_oop_75_126;
 
 /**
  *
- * @author DELL
+ * @author Muhammad Taha
  */
 import java.util.*;
 
@@ -66,13 +66,6 @@ public class Task3 {
 			encryptedString += arr[i];
 		}
 		return encryptedString;
-	}
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String input = JOptionPane.showInputDialog("Enter the String: ");
-		String output = stringEncryption(input);
-		System.out.println(output);	
 	}
 }
 

@@ -255,11 +255,4 @@ public class MyString {
     public MyString(String str) {
         this.str = str;
     }
-
-    
-    
-    
-    
-    
-    
 }
