@@ -68,7 +68,7 @@ public class driver {
     }
 
     public static void main(String[] args) {
-        System.out.println("Program is starting.");
+        System.out.println("Program is starting, with errors");
         System.out.println("Hello UET");
 
        System.out.println("Lahore Campus");
