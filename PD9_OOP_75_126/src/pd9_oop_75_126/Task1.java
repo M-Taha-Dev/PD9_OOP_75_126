@@ -7,7 +7,7 @@ package pd9_oop_75_126;
 
 /**
  *
- * @author DELL
+ * @author Muhammad Taha
  */
 import java.util.*;
 import javax.swing.JOptionPane;
@@ -112,26 +112,6 @@ public class Task1 {
         }
 
         return check;
-    }
-
-    public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        System.out.println("Enter a String: ");
-        //Scanner objScanner = new Scanner(System.in);
-        //String inputString = objScanner.nextLine();
-        //objScanner.close();
-        String inputString = JOptionPane.showInputDialog("Enter a String: ");
-        String sub = JOptionPane.showInputDialog("Enter a sub string: ");
-        //int count = wordCounter(inputString);
-        boolean flag = findSubString(inputString, sub);
-        int wordCount = wordCounter(inputString);
-        int vowelCount = vowelcounter(inputString);
-        int pCount = puncCount(inputString);
-        if (flag) {
-            System.out.println("No. of words: " + wordCount + "\n" + "No. of vowels: " + vowelCount + "\n" + "No. of punctuations: " + pCount + "\n" + '\"' + sub + '\"' + " is a part of String");
-        } else {
-            System.out.println("No. of words: " + wordCount + "\n" + "No. of vowels: " + vowelCount + "\n" + "No. of punctuations: " + pCount + "\n" + '\"' + sub + '\"' + " is not a part of String");
-        }
     }
 
 }
