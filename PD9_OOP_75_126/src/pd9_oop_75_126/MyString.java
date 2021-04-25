@@ -11,7 +11,7 @@ package pd9_oop_75_126;
  */
 public class MyString {
 
-    String str = null;
+    private String str = null;
 
     /**
      * Palindrome is the string which is read same from both start and the end
@@ -121,14 +121,14 @@ public class MyString {
     }
     
     /**
-     * it removes all the characters except alphabets
-     * @return the new string which only contains alphabets
+     * it removes all the characters except alphabets and space
+     * @return the new string which only contains alphabets and space
      */
-    public String extractAlphabets () {
+    public String extractAlphabetsAndSpace () {
         String result = "";
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            if (Character.isLetter(ch)) {
+            if (Character.isLetter(ch) || ch == ' ') {
                 result += ch;
             }
         }
@@ -227,13 +227,31 @@ public class MyString {
     public boolean equals(MyString str) {
         return this.str.equals(str.toString());
     }
+
+    /**
+     * Method updates the value of the variable
+     * @param str the string which is to be placed at the given string
+     */
+    public void set(String str) {
+        this.str = str;
+    }
     
+    /**
+     * Method updates the value of the variable
+     * @param myStr the string which is to be placed at the given string
+     */
+    public void set(MyString myStr) {
+        this.str = myStr.toString();
+    }
     
     @Override
     public String toString() {
         return str;
     }
-    
+    /**
+     * constructor
+     * @param str value to assign to the MyString (string) variable
+     */
     public MyString(String str) {
         this.str = str;
     }

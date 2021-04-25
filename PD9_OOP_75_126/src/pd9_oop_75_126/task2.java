@@ -13,20 +13,20 @@ import java.util.Scanner;
  */
 public class task2 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        
-        Scanner obj = new Scanner(System.in);
-        
-        System.out.println("Please enter a sentence: ");
-        String input = obj.nextLine();
-        
-        System.out.println("Your sentence printed vertically is: ");
-        System.out.print(displayVertical(input));
-    }
+//    /**
+//     * @param args the command line arguments
+//     */
+//    public static void main(String[] args) {
+//        // TODO code application logic here
+//        
+//        Scanner obj = new Scanner(System.in);
+//        
+//        System.out.println("Please enter a sentence: ");
+//        String input = obj.nextLine();
+//        
+//        System.out.println("Your sentence printed vertically is: ");
+//        System.out.print(displayVertical(input));
+//    }
     
     /**
      * this method returns the new string same as input string 
