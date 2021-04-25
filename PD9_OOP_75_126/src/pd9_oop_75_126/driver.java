@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 public class driver {
 /**
  * prints Main Menu
- * @return void
+ * @return the input of the use
  */
     public static String menu() {
         String var = JOptionPane.showInputDialog("Choose from the following options: \n"
@@ -31,7 +31,7 @@ public class driver {
     
     /**
      * prints menu for task 3
-     * @return 
+     * @return user entered input
      */
     
     public static String t3Menu(){
@@ -46,6 +46,10 @@ public class driver {
         return var;
     }
     
+    /**
+     * menu for the task 4. It will be used to take input in the task 4
+     * @return the input of the user
+     */
     public static String t4Menu(){
         String var = JOptionPane.showInputDialog("Choose from the following options: \n"
                 + " 1. Extract Alpahabets and space\n"
@@ -66,6 +70,7 @@ public class driver {
     public static void main(String[] args) {
         String input = "0";
         String t3Input = "0", t4Input = "0";
+        MyString myStr;
         String inputString;
         String outString;
         do {
@@ -142,7 +147,7 @@ public class driver {
                             //extract alphabets and space
                             case "1":
                                 t4Input = JOptionPane.showInputDialog("Please enter a String: ");
-                                MyString myStr = new MyString(t4Input);
+                                myStr = new MyString(t4Input);
                                 JOptionPane.showMessageDialog(null, "Extract alphabets\n" + myStr.extractAlphabetsAndSpace());
                                 break;
                                 
@@ -202,7 +207,6 @@ public class driver {
                             default:
                                 JOptionPane.showMessageDialog(null,"Invalid Input");
                         }
-                        MyString myStr = new MyString(t4Input);
                         
                     } while (!input.equals("0"));
                     input = "4";
