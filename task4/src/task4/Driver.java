@@ -32,6 +32,13 @@ public class Driver {
             System.out.println("Given String is not a palindrome.");
         }
         
+//        System.out.println("Camel case: " + input.toCamelCase());
+//        System.out.println("Title case: " + input.toTitleCase());
+//        System.out.println("remove punctuation: " + input.removePunctuation() );
+//        System.out.println("remove vowels: " + input.removeVowels());
+//        System.out.println("extract digits: " + input.extractDigits());
+//        
+        
     }
     
 }
