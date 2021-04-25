@@ -71,6 +71,9 @@ public class Task1 {
      * @return Boolean (true when match is found, else false)
      */
     public static boolean findSubString(String s, String sub) {
+        if(s.length()<sub.length()){
+            return false;
+        }
         boolean check = false;
         char[] stringArray = s.toCharArray();
         char[] subArray = sub.toCharArray();
@@ -94,7 +97,6 @@ public class Task1 {
                             check = false;
                             break;
                         }
-
                     }
 
                     if (check) {
